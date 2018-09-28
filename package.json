@@ -1,0 +1,25 @@
+{
+  "name": "gas-api-template",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "deploy": "npm run build && clasp push"
+  },
+  "author": "Go Tanaka",
+  "devDependencies": {
+    "@babel/core": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "ajv": "^6.5.3",
+    "babel-loader": "^8.0.2",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-gas": "^2.0.2",
+    "clean-webpack-plugin": "^0.1.19",
+    "copy-webpack-plugin": "^4.5.2",
+    "gas-webpack-plugin": "^0.3.0",
+    "jest": "^23.6.0",
+    "webpack": "^4.19.1",
+    "webpack-cli": "^3.1.0"
+  }
+}
